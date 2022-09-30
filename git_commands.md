@@ -98,4 +98,5 @@
  1102  git branch -D %USERNAME-new_feature
  1103  git status
  1104  git branch
- 1105  history
+ 1105  git push origin --delete USERNAME-new_feature
+ 1106  git push origin --delete %USERNAME-new_feature
